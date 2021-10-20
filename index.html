@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>tetris</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <div class="game-area" id="game-area">
+      <div class="score-cover hidden" id="score-cover">
+        <p>GAME OVER</p>
+        <p>Score: <span id="score-cover-result">0</span></p>
+      </div>
+      <img class="car" id="car" src="car.jpg" alt="car" tabindex="0">
+    </div>
+    <div class="info-area">
+      <div class="score-area">
+        <span>Score: </span>
+        <span id="score">0</span>
+  
+      </div>
+      <div class="start">
+        <button class="start-btn" id="start-btn">Start</button>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

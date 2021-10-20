@@ -1,0 +1,58 @@
+body {
+ font-family: monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  margin: 40px;
+  display: flex;
+}
+
+.game-area {
+  width: 381px;
+  height: 825px;
+  border: 2px solid black;
+  position: relative;
+  overflow: hidden;
+}
+
+.car {
+  position: absolute;
+  bottom: 0;
+  left: 127px;
+  outline: none;
+}
+
+.enemy {
+  position: absolute;
+  top: -165px;
+}
+
+.score-area, .start {
+  margin: 40px;
+  font-size: 3rem;
+}
+
+.start-btn {
+  font-size: 2rem;
+  padding: 20px;
+  font-family: monospace;
+}
+
+.score-cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  font-size: 3rem;
+}
+
+.hidden {
+  display: none;
+}
